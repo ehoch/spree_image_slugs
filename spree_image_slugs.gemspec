@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_image_slugs'
   s.version     = '1.1.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Adds slugs to Spree images'
+  s.description = 'Adds slugs to Spree images and makes alt required...'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'Eric Hochberger'
+  s.email     = 'eric@alarmgrid.com'
+  s.homepage  = 'http://www.alarmgrid.com'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
