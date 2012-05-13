@@ -1,0 +1,4 @@
+<tr data-hook="alt_text">
+  <td><%= t(:alt_text) %>:</td>
+  <td><%= f.text_field :alt, :size => 60, :value => @image.alt || @product.name, :required => true %></td>
+</tr>
